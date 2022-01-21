@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание</title>
+</head>
+<style>
+    h1{
+        color: olive;
+        font-family: "Bauhaus 93",serif;
+        font-size: 300%;
+        text-align: center;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    div{
+        color: olive;
+        font-size: 140%;
+        font-family: fantasy;
+    }
+</style>
+<body>
+<h1> Ваши данные </h1>
+<hr>
+<form action="script.php" method="get">
+    <label>
+        <div>Введите имя
+            <input type="text" id="fname" name="fname">
+        </div>
+    </label>
+    <label>
+        <div>Введите фамилию
+            <input type="text" id="lname" name="lname">
+        </div>
+    </label>
+    <label>
+        <div>
+            Дата рождения
+            <input type="date" id="date" name="date">
+        </div>
+    </label>
+    <label>
+        <div>
+            Номер телефона
+            <input type="tel" id="tel" name="tel">
+        </div>
+    </label>
+    <label>
+        <div>
+            Электронная почта
+            <input type="email" id="email" name="email">
+        </div>
+    </label>
+    <input type="submit" id="submit" name="submit" value="Отправить">
+</form>
+</body>
+</html>
